@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Test Suite">
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+       <test name="Regression Test">
+           <parameter name="browser" value="chrome"/>
+           <parameter name="user" value="myeicherid4@vecvnet.com"/>
+           <parameter name="password" value="Eicher123456789"/>
+           <parameter name="customer" value="Instant Transport Solution Pvt Ltd"/>
+           <classes>
+               <class name="tests.VehicleTrackTestV1"/>
+           </classes>
+       </test>
+
+</suite>

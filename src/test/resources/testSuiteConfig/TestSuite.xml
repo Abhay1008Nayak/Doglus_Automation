@@ -6,11 +6,8 @@
     </listeners>
        <test name="Regression Test">
            <parameter name="browser" value="chrome"/>
-           <parameter name="user" value="myeicherid4@vecvnet.com"/>
-           <parameter name="password" value="Eicher123456789"/>
-           <parameter name="customer" value="Instant Transport Solution Pvt Ltd"/>
            <classes>
-               <class name="tests.VehicleTrackTestV1"/>
+               <class name="tests.testDoglus"/>
            </classes>
        </test>
 
